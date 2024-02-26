@@ -1,6 +1,6 @@
 # Buzz
 
- Buzz project is a social media app within the thenew organization. It is built using ReactJS, NodeJS, and ExpressJS. The app utilizes Single Sign-On (SSO) for user login. The primary purpose of the app is to enable communication and sharing of thoughts among the organization's members.
+ Buzz project is a social media app within the ToTheNew organization. It is built using ReactJS, NodeJS, and ExpressJS. The app utilizes Single Sign-On (SSO) for user login. The primary purpose of the app is to enable communication and sharing of thoughts among the organization's members.
 
 The app provides a user-friendly interface for users to create, edit, and delete their posts. Users can also like, comment, and share posts with their friends. The app also includes features like notifications, user profiles, and privacy settings.
 
@@ -12,9 +12,7 @@ The app's frontend is built using ReactJS. This allows for the creation of a res
 
 Overall, my buzz project aims to provide a platform for communication and sharing of thoughts within the thenew organization. It offers a user-friendly interface and secure login experience, ensuring a smooth and enjoyable user experience.
 
-Please note that I am an AI language model and cannot provide real-time updates or changes to the app. However, I can assist you with any questions or concerns you may have about the app or its features.
-
-
+I created this project as final assessment proejct as an intern.
 
 
 ---
