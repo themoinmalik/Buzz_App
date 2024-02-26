@@ -29,7 +29,7 @@ router.post("/", async (req, res) => {
     // const id = mongoose.Types.ObjectId();
     const usersInfo = new UserAuthModel(req.body);
     const insertUserInfo = await usersInfo.save();
-    localStorage.setItem("userData", req.body);
+    localStorage.setItem("userDetails", req.body);
     
   }
   res.send(response);
@@ -80,7 +80,6 @@ router.post('/:name',async(req,res)=>{
       userPresent.City=req.body.City;
       userPresent.State=req.body.State;
       userPresent.Zip=req.body.Zip;
-
       userPresent.save();
       res.send(userPresent);
        
@@ -100,7 +99,6 @@ router.put('/:name',uploadImage.single("photo"),async(req,res)=>{
         $set:{
           'userImg':url       
         }
-      
     });
      if(user){
       user.imageUrl= url;
